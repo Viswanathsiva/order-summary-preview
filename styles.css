@@ -1,0 +1,141 @@
+body{
+    font-family: 'Red Hat Display', sans-serif;
+  background-image: url("./images/pattern-background-desktop.svg"); 
+  background-repeat: repeat-x; 
+/* background: hsl(225, 100%, 98%); */
+background-attachment: fixed;
+}
+.sum{
+  margin-left: 480px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  
+}
+#image{
+    background-size: cover;
+background: url("./images/illustration-hero.svg") no-repeat;
+background-size: cover;
+width: 100%;
+height: 12rem;
+border-radius:15px 15px 0px 0px   
+    
+}
+.content{
+    background-color: white;
+    justify-content: center;
+    width: 370px;
+    height: 600px;
+    /* border: 1px solid black; */
+    border-radius: 15px;
+}
+.center{
+   text-align: center;
+  color: rgb(27, 27, 27);
+    /* margin: 20px; */
+    padding-top: 20px;
+}
+p{
+    font-size: 14px;
+    text-align: center;
+    padding-right: 50px;
+    padding-left: 50px;
+    line-height: 22px;
+    color: rgb(121, 121, 121);
+}
+.plan{
+  margin-left: auto;
+  margin-right: auto;
+width:300px;
+height: 5rem;
+background-color: hsl(233, 36%, 95%);
+border-radius: 10px;
+display: flex;
+/* flex-direction: row; */
+align-items: center;
+
+}
+.image{
+  padding: 20px;
+  width:50px;
+  height: 50px;
+
+}
+.price h4, p{
+  /* padding-top: auto; */
+
+  padding-bottom: 10px;
+}
+ h4{
+  margin-top: 35px;
+  font-size: small;
+  line-height: 0%;
+  /* padding-top: 10px; */
+}
+
+.price p{
+  margin-bottom: 20px;
+  line-height: 0%;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* font-weight: 500; */
+font-size: 1rem;
+color: hsl(224, 23%, 55%);
+font-size: small;
+/* margin-bottom: 35px; */
+margin-left: -50px;
+/* line-height: 1.6; */
+/* padding: 0 0.688em;*/
+/* padding-bottom: 20px; */
+
+} 
+.plan a{
+  font-size: smaller;
+}
+.payment{
+ margin-top: 20px;
+ margin-left: 35px;
+ margin-right: 35px;
+}
+button{
+  background-color: hsl(245, 75%, 52%);
+  border-radius: 10px;
+  width: 100%;
+  height: 40px;
+  box-shadow: 0px 1.25rem 1.563rem rgba(56, 41, 224, 0.25);
+border: 0%;
+  /* padding-right: 10px; */
+/* padding-left: 60px; */
+}
+button:hover {
+  background-color:  rgb(118, 108, 241);
+  cursor: pointer;
+}
+.payment a{
+color: aliceblue;
+text-decoration: none;
+border: 0cm;
+font-weight: 700;
+
+}
+.cancel{
+  padding: 20px;
+  text-align: center;
+}
+.cancel a{
+ 
+  text-decoration: none;
+  font-weight: 900;
+  font-size: small;
+  color: hsl(224, 23%, 55%);
+  padding: 25px 0 10px 0;
+}
+.cancel :hover {
+  color:hsl(223, 47%, 23%);
+  cursor: pointer;
+}
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
